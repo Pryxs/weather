@@ -1,10 +1,9 @@
 # Meteo research
 
-command : npm start 'lat' 'lng'
+command : npm start 'city'
 
 params : 
-- lat : floating
-- lng : floating
+- city : string
 
-example : npm start 48.86 2.333
+example : npm start Paris
 
